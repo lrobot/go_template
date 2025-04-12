@@ -10,5 +10,5 @@ require golang.org/x/example/hello v0.0.0-20250407153444-dd59d6852dfb
 //replace golang.org/x/example/hello => ../golang_office_example/hello
 
 
-// // replace_method_2
-// replace golang.org/x/example/hello v0.0.0-20250407153444-dd59d6852dfb => github.com/lrobot/golang_office_example/hello v0.0.0-20250412080006-a8f65d85ee56
+// replace_method_2
+replace golang.org/x/example/hello v0.0.0-20250407153444-dd59d6852dfb => github.com/lrobot/golang_office_example/hello v0.0.0-20250412080006-a8f65d85ee56
