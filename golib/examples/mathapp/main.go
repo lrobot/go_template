@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/lrobot/gox/golib/mathlib/add"
+	"github.com/lrobot/go_template/golib/mathlib/add"
 )
 
 func main() {
