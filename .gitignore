@@ -1,4 +1,4 @@
 *.bin
 *.exe
-examples/mathapp/mathapp
-examples/nongoworkapp/nongoworkapp
+**/mathapp/mathapp
+**/nongoworkapp/nongoworkapp
