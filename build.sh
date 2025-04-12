@@ -1,12 +1,16 @@
-(
-  cd examples/hello && go build
-  pwd && ls -l hello
-)
-
+set -x
 
 (
   cd examples/nongoworkapp && go build
   pwd && ls -l nongoworkapp
 )
 
-echo build ok
+
+(
+  cd golib/examples/mathapp && go build
+  pwd && ls -l mathapp
+)
+
+
+echo done
+
