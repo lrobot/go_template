@@ -1,3 +1,4 @@
+examples/use_modified_goexample/golang_office_example/
 *.bin
 *.exe
 **/mathapp/mathapp

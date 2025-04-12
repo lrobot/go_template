@@ -2,5 +2,15 @@ go 1.23.2
 
 use ./hello
 
+
+//git clone https://github.com/lrobot/golang_office_example
 // replace_method_3
-replace golang.org/x/example/hello v0.0.0-20250407153444-dd59d6852dfb => github.com/lrobot/golang_office_example/hello v0.0.0-20250412080006-a8f65d85ee56
+use ./golang_office_example/hello
+//error use case: use ./golang_office_example
+
+
+
+// 这个方法的好处: go.work可以不进入git提交 go.mod中没有replace语句  最终发布版本是纯净的非私有版本
+// replace_method_3
+// replace golang.org/x/example/hello v0.0.0-20250407153444-dd59d6852dfb => github.com/lrobot/golang_office_example/hello v0.0.0-20250412080006-a8f65d85ee56
+
