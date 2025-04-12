@@ -5,6 +5,12 @@ set -x
   pwd && ls -l nongoworkapp
 )
 
+(
+  cd examples/use_modified_goexample/hello && go build
+  pwd && ls -l hello
+)
+
+
 
 (
   cd golib/examples/mathapp && go build

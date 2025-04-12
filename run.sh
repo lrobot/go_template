@@ -1,12 +1,16 @@
 set -x
 
-
 (
-  cd examples/nongoworkapp && go run main.go
+  cd examples/nongoworkapp && go run .
 )
 
 (
-  cd golib/examples/mathapp && go run main.go
+  cd examples/use_modified_goexample/hello && go run .
+)
+
+
+(
+  cd golib/examples/mathapp && go run .
 )
 
 echo done

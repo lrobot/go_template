@@ -7,6 +7,7 @@ import (
 )
 
 func main() {
-	fmt.Println(add.Add(1, 2))
-	fmt.Println("My new project!")
+	fmt.Println("use mathlib/add in golib/go.work")
+	fmt.Printf("1 + 2 = %d\n", add.Add(1, 2))
+	fmt.Println()
 }
