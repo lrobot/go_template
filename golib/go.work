@@ -1,5 +1,7 @@
 go 1.23.2
 
+// go work use ./examples/mathapp
+
 use (
 	./examples/mathapp
 	./mathlib
