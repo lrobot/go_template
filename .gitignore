@@ -1,0 +1,4 @@
+*.bin
+*.exe
+examples/mathapp/mathapp
+examples/nongoworkapp/nongoworkapp
